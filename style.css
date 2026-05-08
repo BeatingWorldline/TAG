@@ -1,0 +1,1228 @@
+/* TGA2025游戏大选 - 静态页面样式 */
+/* 基于 TgaLottery.scss 重构 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tga-page {
+  position: relative;
+  min-height: 100vh;
+  background: #10577b;
+  color: #e6f7ff;
+  max-width: 375px;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* ==================== 顶部横幅 ==================== */
+
+.tga-hero {
+  position: relative;
+  padding: 0px 12px 0px 12px;
+  background: url('images/bg.png') no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 260px;
+}
+
+.main-title {
+  width: 312px;
+  height: 101px;
+  background: url('images/main-title.png') center/contain no-repeat;
+  margin-top: 60px;
+}
+
+.main-top {
+  width: 222px;
+  height: 29px;
+  background: url('images/main-top.png') center/contain no-repeat;
+  margin-top: 9px;
+}
+
+.tips-row {
+  width: 351px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tips-row .desc {
+  flex: 1;
+  color: #fff;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.tips-row .rule {
+  color: #c6c7c7;
+  font-size: 12px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.tips-row .rule:hover {
+  color: #7ccfff;
+}
+
+.count-row {
+  margin-top: 12px;
+  width: 351px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0d4e6h;
+  border: 1px solid #326580;
+  border-radius: 5px;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.tab {
+  width: 88px;
+  height: 34px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #C6C7C7;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tab.active {
+  color: #000;
+  background: linear-gradient(180deg, #ffb56a 0%, #ff8b2f 100%);
+}
+
+.participate-pill {
+  margin-right: 3px;
+  height: 30px;
+  color: #74C7DB;
+  font-size: 13px;
+  line-height: 30px;
+  border-radius: 3px;
+  padding: 0 6px;
+  box-shadow: inset 0 0 8px rgba(47, 173, 236, 0.4);
+}
+
+/* ==================== 投票列表 ==================== */
+
+.tga-list {
+  padding: 10px 12px 120px;
+  background: linear-gradient(to bottom, #115a80 0%, #063650 100%);
+}
+
+.tga-card {
+  margin: 9px 0;
+  width: 351px;
+  height: 100px;
+  border-radius: 8px;
+  border: 1px solid #30647f;
+  background: linear-gradient(to bottom, #0c4e70 0%, #0a415c 100%);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.card-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+}
+
+.trophy {
+  width: 84px;
+  height: 84px;
+  object-fit: contain;
+}
+
+.card-right {
+  flex: 1;
+  min-width: 0;
+}
+
+.sub-en {
+  font-size: 12px;
+  color: #7ccfff;
+  letter-spacing: 0.5px;
+}
+
+.sub-cn {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.sub-desc {
+  font-size: 12px;
+  color: #cde8ff;
+  margin-top: 6px;
+  line-height: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-action {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.vote-btn {
+  width: 58px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 6px;
+  color: #fff;
+  border: 2px solid #7bcefa;
+  background: linear-gradient(to bottom, #10DBFF 0%, #01A1F6 100%);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.vote-btn:hover {
+  background: linear-gradient(to bottom, #3ae5ff 0%, #33b8ff 100%);
+}
+
+.vote-btn.done {
+  background: transparent;
+  border: 2px solid #266485;
+  color: #6dbed3;
+  cursor: default;
+}
+
+/* ==================== 底部按钮 ==================== */
+
+.tga-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 375px;
+  height: 80px;
+  background: linear-gradient(to bottom, transparent 0%, rgba(6, 54, 80, 0.95) 40%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 10px;
+  z-index: 100;
+}
+
+.bottom-primary {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  color: #151515;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid #FFF9DE;
+  background: linear-gradient(180deg, #ffc56b 0%, #ff9434 100%);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.bottom-primary:hover {
+  background: linear-gradient(180deg, #ffd08a 0%, #ffa84d 100%);
+}
+
+/* ==================== 抽奖区域 - 基于原始TgaLottery.scss ==================== */
+
+.lottery-section {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 28px auto 0 auto;
+  width: 351px;
+}
+
+/* 奖品轮播区块 */
+.prize-block-content {
+  background: url('images/prize-content-bg.png') center/cover no-repeat;
+  width: 354px;
+  height: 180px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.prize-block-title {
+  position: absolute;
+  top: 12px;
+  left: 122px;
+  background: url('images/prize-content-title.png') center/contain no-repeat;
+  width: 108px;
+  height: 26px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.banner-swipe {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.banner-swipe .swiper {
+  padding-top: 46px;
+  height: 190px;
+}
+
+.banner-swipe .swiper-slide {
+  width: 88px !important;
+  height: 102px;
+  margin-right: 12px;
+}
+
+.banner-item-img {
+  width: 88px;
+  height: 102px;
+  background: url('images/banner-item-img.png') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-item-img img {
+  margin-top: 12px;
+  margin-bottom: 7px;
+  width: 68px;
+  height: 53px;
+  object-fit: contain;
+}
+
+.prize-txt {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #00191F;
+  line-height: 20px;
+  text-align: center;
+  width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 转盘区块 */
+.turnplate {
+  background: url('images/turnplate.png') center/cover no-repeat;
+  width: 351px;
+  height: 455px;
+  margin: 28px auto 0 auto;
+  position: relative;
+}
+
+.prize-notice {
+  position: absolute;
+  top: 41px;
+  width: 330px;
+  left: 16px;
+  height: 40px;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.notice-swipe {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+}
+
+.notice-swipe .swiper {
+  height: 40px;
+}
+
+.notice-swipe .swiper-slide {
+  width: 270px !important;
+}
+
+.notice-item {
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.notice-name {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.notice-prize-name {
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+/* 九宫格奖品区域 */
+.prize-area {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 310px;
+  left: 21px;
+  top: 80px;
+  justify-content: space-between;
+}
+
+.prize-item {
+  background: url('images/prize-bg.png') center/cover no-repeat;
+  width: 94px;
+  height: 94px;
+  position: relative;
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prize-item img {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 14px;
+  margin-left: 5px;
+}
+
+.prize-num {
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 26px;
+}
+
+.prize-item-four {
+  background-image: none;
+}
+
+.prize-item-four img {
+  max-width: 100% !important;
+  margin: 0px;
+}
+
+.prize-item-active {
+  /* 图片缺失时使用渐变背景 */
+  background: linear-gradient(135deg, rgba(122, 207, 250, 0.3) 0%, rgba(26, 111, 143, 0.5) 100%);
+  box-shadow: 0 0 15px rgba(122, 207, 250, 0.5);
+}
+
+/* 抽奖按钮和说明 - 参考 TgaLottery.scss */
+.prize-info {
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  right: 15px;
+  font-size: 12px;
+  display: flex;
+  height: 24px;
+  line-height: 24px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  color: #151515;
+  white-space: nowrap;
+}
+
+.prize-info-ticket {
+  width: 152px;
+  height: 24px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.prize-btn-area {
+  display: flex;
+  align-items: center;
+}
+
+.prize-btn {
+  position: relative;
+  background-color: transparent;
+  border-radius: 86px;
+  border: 1px solid #63DAFF;
+  font-weight: bold;
+  font-size: 12px;
+  color: #63DAFF;
+  height: 23px;
+  line-height: 21px;
+  padding: 0 7px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* 任务区域 */
+.prize-num-area {
+  position: relative;
+  margin-top: 28px;
+}
+
+.prize-num-block {
+  background: url('images/taskinfos.png') center/cover no-repeat;
+  width: 351px;
+  height: 284px;
+  margin: 0 auto;
+  border-radius: 12px;
+  padding: 50px 10px 0px 10px;
+}
+
+.prize-num-block .col {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 15px;
+  color: #151515;
+  padding-top: 16px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.prize-img-area {
+  display: flex;
+  align-content: center;
+  line-height: 36px;
+}
+
+.prize-img-area img {
+  width: 36px;
+  height: 36px;
+  margin-right: 8px;
+  object-fit: contain;
+}
+
+.go-btn {
+  border-radius: 100px;
+  width: 65px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #10DBFF 0%, #01A1F6 100%);
+}
+
+.unreceived-btn {
+  background: #FF6A1E;
+}
+
+.complete-btn {
+  background: linear-gradient(to bottom, #CACACA 0%, #DDDDDD 100%);
+}
+
+/* 规则区域 */
+.rule-content-area {
+  padding-top: 46px;
+  padding-bottom: 30px;
+  margin-top: 28px;
+  margin-bottom: 120px;
+  background: url('images/rule-bg.png') center/cover no-repeat;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 351px;
+  min-height: 770px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+}
+
+.rule-content-area .rule-title {
+  position: absolute;
+  background: url('images/rule-title.png') center/contain no-repeat;
+  width: 82px;
+  height: 37px;
+  left: 134px;
+  top: 14px;
+}
+
+.rule-area {
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+  position: relative;
+  margin-left: 19px;
+  margin-right: 19px;
+}
+
+.rule-area p {
+  margin-bottom: 8px;
+}
+
+.rule-area p:last-child {
+  margin-bottom: 0;
+}
+
+/* 分享按钮 */
+.share-right-area {
+  position: fixed;
+  right: 15px;
+  bottom: 60px;
+  z-index: 1;
+}
+
+/* PC模式下保持在页面展示区域内 */
+@media screen and (min-width: 401px) {
+  .share-right-area {
+    left: calc((100vw - 375px) / 2 + 375px - 71px - 15px);
+    right: auto;
+  }
+}
+
+.share-btn {
+  background: url('images/share-btn.png') center/contain no-repeat;
+  width: 71px;
+  height: 71px;
+  cursor: pointer;
+}
+
+/* ==================== 弹窗样式 ==================== */
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.dialog-block {
+  position: relative;
+}
+
+.record-dialog-area {
+  background: url('images/record-bg.png') center/cover no-repeat;
+  width: 315px;
+  height: 362px;
+  margin: 0 auto;
+  padding: 51px 13px 13px 13px;
+}
+
+.record-dialog-content-area {
+  background: url('images/dialog-content.png') center/cover no-repeat;
+  width: 291px;
+  height: 300px;
+  padding-top: 15px;
+}
+
+.record-dialog-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.record-dialog-content {
+  max-height: 230px;
+  overflow-y: auto;
+}
+
+.record-empty-txt {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.record-dialog-item {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.record-dialog-item span {
+  margin-right: 8px;
+  line-height: 22px;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+/* 中奖弹窗 */
+.prize-content {
+  background: url('images/dialog-bg.png') center/cover no-repeat;
+  background-color: transparent;
+  width: 315px;
+  height: 362px;
+  padding-top: 51px;
+  color: #DDECD6;
+  position: relative;
+}
+
+.prize-goods-title {
+  position: absolute;
+  background: url('images/prize-goods-title.png') center/contain no-repeat;
+  width: 80px;
+  height: 26px;
+  left: 119px;
+  top: 15px;
+}
+
+.prize-content-detail {
+  background: url('images/dialog-content.png') center/cover no-repeat;
+  width: 291px;
+  height: 300px;
+  margin: 0px 13px 13px 13px;
+}
+
+.prize-title {
+  font-weight: 500;
+  min-height: 50px;
+  font-size: 22px;
+  color: #DDECD6;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prize-title-text {
+  color: #333;
+  font-size: 20px;
+  height: 30px;
+}
+
+.prize-img {
+  background-color: transparent;
+  width: 132px;
+  height: 121px;
+  margin: 0 auto 18px auto;
+  text-align: center;
+}
+
+.prize-img img {
+  max-width: 100%;
+}
+
+.update-address-btn {
+  background-color: #FF6A1E;
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 100px;
+  border: none;
+  padding: 9px 21px;
+  cursor: pointer;
+}
+
+.address-btn-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.desc {
+  text-align: center;
+  color: #969696;
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* 关闭按钮 */
+.close-btn {
+  background: url('images/close.png') center/contain no-repeat;
+  background-color: transparent;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: 13px;
+  top: 13px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* 通用弹窗遮罩 */
+.vote-popup-overlay,
+.rule-overlay,
+.win-overlay,
+.van-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 中奖弹窗遮罩 - 居中定位 */
+.win-overlay {
+  left: 50%;
+  transform: translateX(-50%);
+  width: 375px;
+}
+
+/* 中奖弹窗显示时 */
+.win-overlay.show {
+  display: flex;
+}
+
+/* 投票弹窗（底部抽屉样式 - 固定在视口底部） */
+.vote-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding: 16px 16px 30px;
+  background: linear-gradient(to bottom, #1a7faf 0%, #033149 100%);
+  box-shadow: 0 -6px 20px rgba(0,0,0,0.4);
+  z-index: 2000;
+  display: none;
+  /* 初始状态 - 隐藏时在底部下方 */
+  transform: translateY(100%);
+  transition: transform 0.3s ease-out;
+}
+
+/* 播放动画时的状态 */
+.vote-popup.animate-in {
+  transform: translateY(0);
+}
+
+.vote-popup.animate-out {
+  transform: translateY(100%);
+  transition: transform 0.25s ease-in;
+}
+
+/* PC模式下限制宽度并居中（相对于视口） */
+@media screen and (min-width: 400px) {
+  .vote-popup {
+    left: 50%;
+    width: 375px;
+    right: auto;
+    margin-left: -187.5px;
+  }
+}
+
+/* 投票弹窗遮罩 */
+.vote-popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.vote-popup-overlay.animate-in {
+  opacity: 1;
+}
+
+.vote-pop-title {
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.vote-pop-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.vote-pop-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.vote-pop-img {
+  width: 98px;
+  height: 132px;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: filter 0.2s ease, border-color 0.2s ease;
+  border: 3px solid transparent;
+}
+
+.vote-pop-item.selected .vote-pop-img {
+  border-color: #ffba6d;
+}
+
+.vote-pop-img.dimmed {
+  filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+.vote-pop-name {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #ffffff;
+  text-align: center;
+  min-height: 34px;
+  max-width: 98px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.vote-pop-badge {
+  position: absolute;
+  bottom: 40px;
+  width: 98px;
+  height: 27px;
+  border-radius: 0 0 12px 12px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+  background: #ffb769;
+}
+
+.vote-pop-btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 14px auto 0;
+  background: linear-gradient(to bottom, #11dbff 0%, #01a3f6 100%) !important;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border: none;
+}
+
+.vote-pop-btn.disabled {
+  line-height: 36px;
+  border: 2px solid #1b4760;
+  background: #03334d !important;
+  color: #6dbed3;
+  cursor: default;
+}
+
+.vote-pop-close {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 20px;
+  height: 20px;
+  background: url('images/close.png') center/contain no-repeat;
+  cursor: pointer;
+  opacity: 0.7;
+  transform: scale(1.2);
+}
+
+.vote-pop-close:hover {
+  opacity: 1;
+}
+
+/* 中奖弹窗 */
+.win-overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* 保留原有的 win-modal 样式作为兼容，但通过新的 dialog-block 结构使用 */
+.prize-goods-dialog {
+  background: url('images/dialog-bg.png') center/cover no-repeat;
+  background-color: transparent;
+  width: 315px;
+  height: 362px;
+  padding-top: 51px;
+  color: #DDECD6;
+  position: relative;
+}
+
+.prize-goods-dialog .prize-goods-title {
+  position: absolute;
+  background: url('images/prize-goods-title.png') center/contain no-repeat;
+  width: 80px;
+  height: 26px;
+  left: 119px;
+  top: 15px;
+}
+
+.prize-goods-dialog .prize-content-detail {
+  background: url('images/dialog-content.png') center/cover no-repeat;
+  width: 291px;
+  height: 300px;
+  margin: 0px 13px 13px 13px;
+}
+
+.prize-goods-dialog .prize-title {
+  font-weight: 500;
+  min-height: 50px;
+  font-size: 22px;
+  color: #DDECD6;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prize-goods-dialog .prize-title .prize-title-text {
+  color: #333;
+  font-size: 20px;
+  height: 30px;
+}
+
+.prize-goods-dialog .prize-img {
+  background-color: transparent;
+  width: 132px;
+  height: 121px;
+  margin: 0 auto 18px auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 新增：添加内边距和深色背景，让白色文字图片清晰可见 */
+  padding: 8px;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+  border-radius: 8px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.prize-goods-dialog .prize-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.prize-goods-dialog .update-address-btn {
+  background-color: #FF6A1E;
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 100px;
+  border: none;
+  padding: 9px 21px;
+  cursor: pointer;
+}
+
+.prize-goods-dialog .address-btn-area {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.prize-goods-dialog .desc {
+  text-align: center;
+  color: #969696;
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.prize-goods-dialog .desc p {
+  color: #333;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.prize-goods-dialog .desc .miss-sub {
+  font-size: 16px;
+  color: #666;
+  margin-top: 6px;
+}
+
+/* 关闭按钮 */
+.prize-goods-dialog .close-btn {
+  background: url('images/close.png') center/contain no-repeat;
+  background-color: transparent;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: 13px;
+  top: 13px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* ==================== 下载引导弹窗 ==================== */
+.dialog-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 2000;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-overlay.show {
+  display: flex;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-dialog {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 351px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.share-dialog-title {
+  background-color: RGBA(255, 246, 132, 0.1);
+  background-position: top top;
+  background-size: 100% auto;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2b2b2b;
+  position: relative;
+  border-radius: 20px 20px 0 0;
+  padding-left: 6px;
+  padding-right: 6px;
+  display: flex;
+  height: 75px;
+  text-align: center;
+}
+
+.share-icon {
+  width: 82px;
+  height: 72px;
+  position: absolute;
+  top: -10px;
+}
+
+.share-icon img {
+  max-width: 100%;
+}
+
+.share-title-txt {
+  margin-left: 88px;
+  margin-top: 14px;
+  text-align: left;
+}
+
+.share-title-txt p {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.share-dialog .close-btn {
+  background-image: url(images/share-close.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 23px;
+  height: 24px;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.share-dialog-content {
+  padding: 10px 17px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.share-dialog-content h5 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #222222;
+  line-height: 22px;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+.share-btn-area {
+  display: flex;
+  justify-content: center;
+  margin: 34px 0 14px 0;
+}
+
+.download-btn {
+  background-color: #ffe005;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #222222;
+  padding: 13px 22px;
+  height: 48px;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+}
+
+/* ==================== 响应式 ==================== */
+
+@media screen and (max-width: 400px) {
+  .tga-page {
+    max-width: 100%;
+  }
+  
+  .tga-card {
+    width: 100%;
+    height: auto;
+    min-height: 90px;
+  }
+  
+  .tga-bottom {
+    width: 100%;
+  }
+}

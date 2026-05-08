@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>TGA2025游戏大选 - 3DM游戏</title>
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tga-page">
+    <!-- 顶部横幅背景 -->
+    <div class="tga-hero">
+      <div class="main-title"></div>
+      <div class="main-top"></div>
+      <div class="tips-row">
+        <div class="desc">3DM游戏票数将计入「最终TGA票选结果」</div>
+        <div class="rule" id="ruleBtn">规则说明 ></div>
+      </div>
+      <div class="count-row">
+        <div class="tabs">
+          <button class="tab active" data-tab="vote">投票</button>
+          <button class="tab" data-tab="lottery">抽奖</button>
+        </div>
+        <div class="participate-pill" id="joinCount">已有91666人参与</div>
+      </div>
+    </div>
+
+    <!-- 投票列表区域 -->
+    <div class="tga-list" id="voteList"></div>
+
+    <!-- 抽奖区域 -->
+    <div class="lottery-section" id="lotterySection" style="display:none;">
+      
+      <!-- 奖品轮播区块 -->
+      <div class="prize-block-content">
+        <div class="prize-block-title"></div>
+        <div class="banner-swipe" id="bannerSwipe">
+          <div class="swiper" id="prize-swiper">
+            <div class="swiper-wrapper" id="prize-swiper-wrapper">
+              <!-- JS 渲染奖品列表 -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 转盘区块 -->
+      <div class="turnplate">
+        <!-- 中奖滚动通知 -->
+        <div class="prize-notice">
+          <div class="notice-swipe" id="noticeSwipe">
+            <div class="swiper" id="notice-swiper">
+              <div class="swiper-wrapper" id="notice-swiper-wrapper">
+                <!-- JS 渲染中奖名单 -->
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 九宫格奖品 -->
+        <div class="prize-area">
+          <div class="prize-item" data-index="0">
+            <img src="https://imgs.3dmgame.com/activity/20251118tga/5070_mini3x.png" alt="华硕RTX 5070显卡">
+          </div>
+          <div class="prize-item" data-index="1">
+            <img src="https://imgs.3dmgame.com/activity/20251118tga/zhuban.png" alt="微星主板">
+          </div>
+          <div class="prize-item" data-index="2">
+            <img src="https://imgs.3dmgame.com/activity/20251118tga/rog_zhuban.png" alt="ROG吹雪主板">
+          </div>
+          <div class="prize-item" data-index="3">
+            <img src="https://imgs.3dmgame.com/activity/20251118tga/rog_jianpan.png" alt="ROG夜魔键盘">
+          </div>
+          <div class="prize-item prize-item-four" id="lotteryBtn">
+            <img src="images/prize-btn.png" alt="抽奖">
+            <div class="prize-num">剩余次数x<span id="chanceCount">0</span></div>
+          </div>
+          <div class="prize-item" data-index="5">
+            <img src="https://imgs.3dmgame.com/activity/20251118tga/qicaihong_jianpan.png" alt="星弛键盘">
+          </div>
+          <div class="prize-item" data-index="6">
+            <img src="https://imgs.3dmgame.com/activity/20251118tga/shubiao.png" alt="ROG鼠标">
+          </div>
+          <div class="prize-item" data-index="7">
+            <img src="https://imgs.3dmgame.com/activity/20251118tga/erji.png" alt="ROG耳机">
+          </div>
+          <div class="prize-item" data-index="8">
+            <img src="https://imgs.3dmgame.com/activity/20251118tga/xiexie3x.png" alt="感谢参与">
+          </div>
+        </div>
+
+        <!-- 抽奖信息和按钮 -->
+        <div class="prize-info">
+          <div class="prize-info-ticket">每次抽奖消抽奖券 x1</div>
+          <div class="prize-btn-area">
+            <button class="prize-btn" id="recordBtn">抽奖记录</button>
+            <button class="prize-btn" id="addressBtn">收件地址</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 任务区域 -->
+      <div class="prize-num-area">
+        <div class="prize-num-block" id="taskList">
+          <div class="col">
+            <div class="prize-img-area">
+              <img src="https://imgs.3dmgame.com/activity/20251118tga/task1.png" />
+              投票<span>+1</span>
+            </div>
+            <div class="go-btn" data-task="vote">去完成</div>
+          </div>
+          <div class="col">
+            <div class="prize-img-area">
+              <img src="https://imgs.3dmgame.com/activity/20251118tga/task2.png" />
+              分享<span>+1</span>
+            </div>
+            <div class="go-btn" data-task="share">去完成</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 规则区域 -->
+      <div class="rule-content-area">
+        <div class="rule-title"></div>
+        <div class="rule-area">
+          <div>
+            <p>1、活动时间：11月18日 - 12月10日18:00:00；</p>
+            <p>2、投票规则：活动期间，每位用户每天可对单个奖项投票1次，次日0点重置可再次投票；</p>
+            <p>3、活动结束后，3DM内所有玩家投票结果将同步到TGA2025票选结果，按照TGA官方规定的投票权重计入TGA2025的最终票选数据；</p>
+            <p>4、在本活动页面完成任务可获得相应抽奖次数，抽奖次数可用于九宫格抽奖，可获得正版游戏周边好礼。中奖记录可在活动页面-【九宫格抽奖】-【抽奖记录】查询；</p>
+            <p>5、若活动时间内未提交收货信息或提交信息有误将无法发奖，视为自愿放弃领奖资格。</p>
+            <p>6、本次活动奖励将在活动结束后30个工作日内发放，请保持联系方式畅通；</p>
+            <p>如超过发放时间未收到奖品，可通过活动贴，使用【APP站内私信】联系【万能的创作小助手】；</p>
+            <p>7、为公平起见，我们严厉抵制作弊等违规行为，一经发现将取消全部获奖资格（如奖品已发放则有权追回）最终奖品颜色、规格以实物为准，活动页仅为示例;</p>
+            <p>8、本次活动奖品清单如下：</p>
+            <p>● 华硕RTX 5070显卡 *1</p>
+            <p>● 微星主板B860M GAMING PLUS *2</p>
+            <p>● 华硕ROG吹雪主板 *5</p>
+            <p>● ROG夜魔98HE键盘 *5</p>
+            <p>● 星弛87磁轴键盘 *5</p>
+            <p>● ROG龙鳞2ACE鼠标 *10</p>
+            <p>● ROG破风耳机 *10</p>
+            <p style="margin-bottom:0">9、本活动与苹果无关。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 分享按钮 -->
+      <div class="share-right-area">
+        <div class="share-btn" id="shareBtn"></div>
+      </div>
+    </div>
+
+    <!-- 底部主按钮 -->
+    <div class="tga-bottom" id="tgaBottom">
+      <button class="bottom-primary" id="bottomBtn">投完票去抽奖</button>
+    </div>
+
+    <!-- 投票弹窗遮罩 -->
+    <div class="vote-popup-overlay" id="votePopupOverlay"></div>
+
+    <!-- 投票弹窗（固定在底部） -->
+    <div class="vote-popup" id="votePopup">
+      <div class="vote-pop-title" id="votePopupTitle">投票</div>
+      <div class="vote-pop-grid" id="votePopGrid"></div>
+      <div class="vote-pop-btn disabled" id="voteSubmitBtn">投票</div>
+      <div class="vote-pop-close" id="votePopClose"></div>
+    </div>
+
+  <!-- 中奖弹窗 - 参考 TgaLottery.vue 的 van-overlay 结构 -->
+  <div class="win-overlay" id="winOverlay">
+    <div class="wrapper">
+      <div class="dialog-block prize-goods-dialog">
+        <div class="close-btn" id="winCloseBtn"></div>
+        <div class="prize-goods-title"></div>
+        <div class="prize-content-detail">
+          <!-- 中奖时显示 -->
+          <div class="prize-title" id="prizeTitleWin" style="display: none;">
+            <div class="prize-title-text">恭喜获得</div>
+            <span id="winPrizeName"></span>
+          </div>
+          <!-- 未中奖时显示 -->
+          <div class="desc" id="prizeTitleMiss">
+            <p>与大奖擦肩而过</p>
+            <p class="miss-sub">下次好运加倍～～</p>
+          </div>
+          <div class="prize-img" id="winPrizeImg"></div>
+          <!-- 中奖时显示地址按钮 -->
+          <div class="address-btn-area" id="addressBtnArea" style="display: none;">
+            <button class="update-address-btn">填写收件地址</button>
+          </div>
+          <!-- 中奖时显示提示文字 -->
+          <p id="winPrizeTip" style="margin-top: 10px; color: #666; font-size: 12px; text-align: center; display: none;">实物奖励请在页面填写收件地址</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 下载引导弹窗 -->
+  <div class="dialog-overlay" id="downloadOverlay">
+    <div class="wrapper">
+      <div class="share-dialog">
+        <div class="share-dialog-title">
+          <div class="share-icon">
+            <img src="images/share-icon.png" />
+          </div>
+          <div class="share-title-txt">
+            <p>该功能仅限</p>
+            <p>在3DM游戏APP内使用</p>
+          </div>
+          <div class="close-btn" id="downloadCloseBtn"></div>
+        </div>
+        <div class="share-dialog-content">
+          <h5>如何参与活动？</h5>
+          <p>本活动需要在3DM游戏APP内参与哦~打开最新版3DM游戏APP，点击【首页-领游戏】即可参与！</p>
+        </div>
+        <div class="share-btn-area">
+          <div class="download-btn" id="handle-download-btn">下载3DM游戏 APP参与活动</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="swiper-bundle.min.js"></script>
+<script src="https://g.alicdn.com/jssdk/u-link/index.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
