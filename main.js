@@ -1,4 +1,4 @@
-// TGA2025游戏大选 - 静态页面数据
+﻿// TGA2025游戏大选 - 静态页面数据
 // 页面数据已硬编码，无需接口请求
 
 // ==================== 静态数据 ====================
@@ -9,387 +9,387 @@ const tgaAwardsData = [
     id: 1,
     name: "年度最佳游戏",
     enName: "Game of the Year",
-    pic: "https://imgs.3dmgame.com/activity/awards/GameOfYear.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_game_of_year.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "光与影：33号远征队", imageUrl: "https://imgb.3dmgame.com/images/1756210434618a045d28332c84b38948ef2e64e89371a.jpg?imageView2/0/format/webp", gameId: "11249" },
-      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "https://imgb.3dmgame.com/images/173427421891137b41eda10494c4fa1f62b5fb424b9ce.jpg?imageView2/0/format/webp", gameId: "9157" },
-      { gameName: "咚奇刚：蕉力全开", imageUrl: "https://imgb.3dmgame.com/images/17436651016157bccde209970456fb6251b0d4e5f158d.jpg?imageView2/0/format/webp", gameId: "11710" },
-      { gameName: "哈迪斯2", imageUrl: "https://imgb.3dmgame.com/images/17560684055742c955971271e4fe2b838f6cef0a1a756.jpg?imageView2/0/format/webp", gameId: "8490" },
-      { gameName: "空洞骑士：丝之歌", imageUrl: "https://imgb.3dmgame.com/images/175615115676211cf9fc70e784538ab7615d3b6eef501.jpg?imageView2/0/format/webp", gameId: "89" },
-      { gameName: "天国：拯救2", imageUrl: "https://imgb.3dmgame.com/images/1755660215527f0cec119304a4bdea7062a752f8dd325.jpg?imageView2/0/format/webp", gameId: "10483" }
+      { gameName: "光与影：33号远征队", imageUrl: "images/game_1756210434.jpg", gameId: "11249" },
+      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "images/game_1734274218.jpg", gameId: "9157" },
+      { gameName: "咚奇刚：蕉力全开", imageUrl: "images/game_1743665101.jpg", gameId: "11710" },
+      { gameName: "哈迪斯2", imageUrl: "images/game_1756068405.jpg", gameId: "8490" },
+      { gameName: "空洞骑士：丝之歌", imageUrl: "images/game_1756151156.jpg", gameId: "89" },
+      { gameName: "天国：拯救2", imageUrl: "images/game_1755660215.jpg", gameId: "10483" }
     ]
   },
   {
     id: 2,
     name: "最佳游戏指导",
     enName: "Best Game Direction",
-    pic: "https://imgs.3dmgame.com/activity/awards/BestGameDirection.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_best_game_direction.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "光与影：33号远征队", imageUrl: "https://imgb.3dmgame.com/images/1756210434618a045d28332c84b38948ef2e64e89371a.jpg?imageView2/0/format/webp", gameId: "11249" },
-      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "https://imgb.3dmgame.com/images/173427421891137b41eda10494c4fa1f62b5fb424b9ce.jpg?imageView2/0/format/webp", gameId: "9157" },
-      { gameName: "羊蹄山之魂", imageUrl: "https://imgs.3dmgame.com/games/55d5ca43586f4b408801c48d9acf75e111758623031804.png?x-oss-process=image/interlace,1/format,webp", gameId: "11837" },
-      { gameName: "哈迪斯2", imageUrl: "https://imgb.3dmgame.com/images/17560684055742c955971271e4fe2b838f6cef0a1a756.jpg?imageView2/0/format/webp", gameId: "8490" },
-      { gameName: "双影奇境", imageUrl: "https://imgb.3dmgame.com/images/175623349134526502db33c1b4a0c8d20cf5cd1247a60.jpg?imageView2/0/format/webp", gameId: "10949" }
+      { gameName: "光与影：33号远征队", imageUrl: "images/game_1756210434.jpg", gameId: "11249" },
+      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "images/game_1734274218.jpg", gameId: "9157" },
+      { gameName: "羊蹄山之魂", imageUrl: "images/game_yangtishanzhihun.png", gameId: "11837" },
+      { gameName: "哈迪斯2", imageUrl: "images/game_1756068405.jpg", gameId: "8490" },
+      { gameName: "双影奇境", imageUrl: "images/game_1756233491.jpg", gameId: "10949" }
     ]
   },
   {
     id: 3,
     name: "最佳叙事游戏",
     enName: "Best Narrative",
-    pic: "https://imgs.3dmgame.com/activity/awards/BestNarrative.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_best_narrative.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "光与影：33号远征队", imageUrl: "https://imgb.3dmgame.com/images/1756210434618a045d28332c84b38948ef2e64e89371a.jpg?imageView2/0/format/webp", gameId: "11249" },
-      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "https://imgb.3dmgame.com/images/173427421891137b41eda10494c4fa1f62b5fb424b9ce.jpg?imageView2/0/format/webp", gameId: "9157" },
-      { gameName: "羊蹄山之魂", imageUrl: "https://imgs.3dmgame.com/games/55d5ca43586f4b408801c48d9acf75e111758623031804.png?x-oss-process=image/interlace,1/format,webp", gameId: "11837" },
-      { gameName: "天国：拯救2", imageUrl: "https://imgb.3dmgame.com/images/1755660215527f0cec119304a4bdea7062a752f8dd325.jpg?imageView2/0/format/webp", gameId: "10949" },
-      { gameName: "寂静岭f", imageUrl: "https://imgb.3dmgame.com/images/17558187665652ea0c52c071140f38fe5cfacc2b26236.jpg?imageView2/0/format/webp", gameId: "11593" }
+      { gameName: "光与影：33号远征队", imageUrl: "images/game_1756210434.jpg", gameId: "11249" },
+      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "images/game_1734274218.jpg", gameId: "9157" },
+      { gameName: "羊蹄山之魂", imageUrl: "images/game_yangtishanzhihun.png", gameId: "11837" },
+      { gameName: "天国：拯救2", imageUrl: "images/game_1755660215.jpg", gameId: "10949" },
+      { gameName: "寂静岭f", imageUrl: "images/game_1755818766.jpg", gameId: "11593" }
     ]
   },
   {
     id: 4,
     name: "最佳艺术指导",
     enName: "Best Art Direction",
-    pic: "https://imgs.3dmgame.com/activity/awards/BestArtDirection.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_best_art_direction.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "光与影：33号远征队", imageUrl: "https://imgb.3dmgame.com/images/1756210434618a045d28332c84b38948ef2e64e89371a.jpg?imageView2/0/format/webp", gameId: "11249" },
-      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "https://imgb.3dmgame.com/images/173427421891137b41eda10494c4fa1f62b5fb424b9ce.jpg?imageView2/0/format/webp", gameId: "9157" },
-      { gameName: "哈迪斯2", imageUrl: "https://imgb.3dmgame.com/images/17560684055742c955971271e4fe2b838f6cef0a1a756.jpg?imageView2/0/format/webp", gameId: "8490" },
-      { gameName: "羊蹄山之魂", imageUrl: "https://imgs.3dmgame.com/games/55d5ca43586f4b408801c48d9acf75e111758623031804.png?x-oss-process=image/interlace,1/format,webp", gameId: "11837" },
-      { gameName: "双影奇境", imageUrl: "https://imgb.3dmgame.com/images/175623349134526502db33c1b4a0c8d20cf5cd1247a60.jpg?imageView2/0/format/webp", gameId: "10949" }
+      { gameName: "光与影：33号远征队", imageUrl: "images/game_1756210434.jpg", gameId: "11249" },
+      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "images/game_1734274218.jpg", gameId: "9157" },
+      { gameName: "哈迪斯2", imageUrl: "images/game_1756068405.jpg", gameId: "8490" },
+      { gameName: "羊蹄山之魂", imageUrl: "images/game_yangtishanzhihun.png", gameId: "11837" },
+      { gameName: "双影奇境", imageUrl: "images/game_1756233491.jpg", gameId: "10949" }
     ]
   },
   {
     id: 5,
     name: "最佳配乐/音乐",
     enName: "Best Score & Music",
-    pic: "https://imgs.3dmgame.com/activity/awards/BestScoreMusic.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_best_score.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "空洞骑士：丝之歌", imageUrl: "https://imgb.3dmgame.com/images/175615115676211cf9fc70e784538ab7615d3b6eef501.jpg?imageView2/0/format/webp", gameId: "89" },
-      { gameName: "哈迪斯2", imageUrl: "https://imgb.3dmgame.com/images/17560684055742c955971271e4fe2b838f6cef0a1a756.jpg?imageView2/0/format/webp", gameId: "8490" },
-      { gameName: "光与影：33号远征队", imageUrl: "https://imgb.3dmgame.com/images/1756210434618a045d28332c84b38948ef2e64e89371a.jpg?imageView2/0/format/webp", gameId: "11249" },
-      { gameName: "羊蹄山之魂", imageUrl: "https://imgs.3dmgame.com/games/55d5ca43586f4b408801c48d9acf75e111758623031804.png?x-oss-process=image/interlace,1/format,webp", gameId: "11837" },
-      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "https://imgb.3dmgame.com/images/173427421891137b41eda10494c4fa1f62b5fb424b9ce.jpg?imageView2/0/format/webp", gameId: "9157" }
+      { gameName: "空洞骑士：丝之歌", imageUrl: "images/game_1756151156.jpg", gameId: "89" },
+      { gameName: "哈迪斯2", imageUrl: "images/game_1756068405.jpg", gameId: "8490" },
+      { gameName: "光与影：33号远征队", imageUrl: "images/game_1756210434.jpg", gameId: "11249" },
+      { gameName: "羊蹄山之魂", imageUrl: "images/game_yangtishanzhihun.png", gameId: "11837" },
+      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "images/game_1734274218.jpg", gameId: "9157" }
     ]
   },
   {
     id: 6,
     name: "最佳音效设计",
     enName: "Best Audio Design",
-    pic: "https://imgs.3dmgame.com/activity/awards/BestAudioDesign.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_best_audio.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "战地风云6", imageUrl: "https://imgb.3dmgame.com/images/1755806260613f575ae30a585486b800e2d65a45605e6.jpg?imageView2/0/format/webp", gameId: "12576" },
-      { gameName: "光与影：33号远征队", imageUrl: "https://imgb.3dmgame.com/images/1756210434618a045d28332c84b38948ef2e64e89371a.jpg?imageView2/0/format/webp", gameId: "11249" },
-      { gameName: "羊蹄山之魂", imageUrl: "https://imgs.3dmgame.com/games/55d5ca43586f4b408801c48d9acf75e111758623031804.png?x-oss-process=image/interlace,1/format,webp", gameId: "11837" },
-      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "https://imgb.3dmgame.com/images/173427421891137b41eda10494c4fa1f62b5fb424b9ce.jpg?imageView2/0/format/webp", gameId: "9157" },
-      { gameName: "寂静岭f", imageUrl: "https://imgb.3dmgame.com/images/17558187665652ea0c52c071140f38fe5cfacc2b26236.jpg?imageView2/0/format/webp", gameId: "11593" }
+      { gameName: "战地风云6", imageUrl: "images/game_1755806260.jpg", gameId: "12576" },
+      { gameName: "光与影：33号远征队", imageUrl: "images/game_1756210434.jpg", gameId: "11249" },
+      { gameName: "羊蹄山之魂", imageUrl: "images/game_yangtishanzhihun.png", gameId: "11837" },
+      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "images/game_1734274218.jpg", gameId: "9157" },
+      { gameName: "寂静岭f", imageUrl: "images/game_1755818766.jpg", gameId: "11593" }
     ]
   },
   {
     id: 8,
     name: "最佳无障碍创新",
     enName: "Innovation in Accessibility",
-    pic: "https://imgs.3dmgame.com/activity/awards/InnovationAccessibility.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_innovation.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "午夜以南", imageUrl: "https://imgb.3dmgame.com/images/175621895809804a5eaa5b89a450c9f3247c53a959af3.jpg?imageView2/0/format/webp", gameId: "11250" },
-      { gameName: "刺客信条：影", imageUrl: "https://imgb.3dmgame.com/images/1755836743480fb3af82590834b5e8ff7c6afb97e7941.jpg?imageView2/0/format/webp", gameId: "9113" },
-      { gameName: "原子陨落", imageUrl: "https://imgb.3dmgame.com/images/1756004202394d77fd48ef279474180406a272b866094.jpg?imageView2/0/format/webp", gameId: "11349" },
-      { gameName: "毁灭战士：黑暗时代", imageUrl: "https://imgb.3dmgame.com/images/1755825058635f2bbffb667fc4715bf4d3a5f78bef383.jpg?imageView2/0/format/webp", gameId: "11200" },
-      { gameName: "EA SPORTS FC™ 26", imageUrl: "https://imgb.3dmgame.com/images/17558594431501e691d6e20dc4e13bda1c05dbdfbe2b5.jpg?imageView2/0/format/webp", gameId: "12516" }
+      { gameName: "午夜以南", imageUrl: "images/game_1756218958.jpg", gameId: "11250" },
+      { gameName: "刺客信条：影", imageUrl: "images/game_1755836743.jpg", gameId: "9113" },
+      { gameName: "原子陨落", imageUrl: "images/game_1756004202.jpg", gameId: "11349" },
+      { gameName: "毁灭战士：黑暗时代", imageUrl: "images/game_1755825058.jpg", gameId: "11200" },
+      { gameName: "EA SPORTS FC™ 26", imageUrl: "images/game_1755859443.jpg", gameId: "12516" }
     ]
   },
   {
     id: 9,
     name: "最具影响力游戏",
     enName: "Games For Impact",
-    pic: "https://imgs.3dmgame.com/activity/awards/GamesImpact.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_games_impact.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "遗失的记录：盛放与愤怒", imageUrl: "https://imgb.3dmgame.com/images/1756210338870e135ab7c211f41638edd90c511cf435c.jpg?imageView2/0/format/webp", gameId: "11311" },
-      { gameName: "Consume Me", imageUrl: "https://imgb.3dmgame.com/images/176342908833031afb2614a0b4ae68b9b74646dfe60f4.jpg?imageView2/0/format/webp", gameId: "13771" },
-      { gameName: "despelote", imageUrl: "https://imgb.3dmgame.com/images/175627968819012cc23fd78b44774af138dbfe1c90969.jpg?imageView2/0/format/webp", gameId: "11944" },
-      { gameName: "午夜以南", imageUrl: "https://imgb.3dmgame.com/images/175621895809804a5eaa5b89a450c9f3247c53a959af3.jpg?imageView2/0/format/webp", gameId: "11250" },
-      { gameName: "漫游驿站", imageUrl: "https://imgb.3dmgame.com/images/17560987940296cc28eeb9be04297a4ea1af9cac9b1f2.jpg?imageView2/0/format/webp", gameId: "11340" }
+      { gameName: "遗失的记录：盛放与愤怒", imageUrl: "images/game_1756210338.jpg", gameId: "11311" },
+      { gameName: "Consume Me", imageUrl: "images/game_1763429088.jpg", gameId: "13771" },
+      { gameName: "despelote", imageUrl: "images/game_1756279688.jpg", gameId: "11944" },
+      { gameName: "午夜以南", imageUrl: "images/game_1756218958.jpg", gameId: "11250" },
+      { gameName: "漫游驿站", imageUrl: "images/game_1756098794.jpg", gameId: "11340" }
     ]
   },
   {
     id: 10,
     name: "最佳持续运营",
     enName: "Best Ongoing",
-    pic: "https://imgs.3dmgame.com/activity/awards/BestOngoing.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_best_ongoing.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "最终幻想XIV", imageUrl: "https://imgb.3dmgame.com/images/1735011939788dcc8e16a05e0461d8761dac5384b11a9.png?imageView2/0/format/webp", gameId: "11008" },
-      { gameName: "堡垒之夜", imageUrl: "https://imgs.3dmgame.com/games/ccb67706457442c19f9ad910e95bee3611763429824222.png?x-oss-process=image/interlace,1/format,webp", gameId: "13772" },
-      { gameName: "绝地潜兵2", imageUrl: "https://imgb.3dmgame.com/images/1755955979071db8ff546823f4dcc8f86b9563b2d674e.jpg?imageView2/0/format/webp", gameId: "7788" },
-      { gameName: "漫威争锋", imageUrl: "https://imgb.3dmgame.com/images/17558022952536a415cbbddd3412cba4489accb4fefe7.jpg?imageView2/0/format/webp", gameId: "9274" },
-      { gameName: "无人深空", imageUrl: "https://imgb.3dmgame.com/images/175590419350679d6e1da56184c089b6957064f341630.jpg?imageView2/0/format/webp", gameId: "29" }
+      { gameName: "最终幻想XIV", imageUrl: "images/game_1735011939.png", gameId: "11008" },
+      { gameName: "堡垒之夜", imageUrl: "images/game_baixuni2.png", gameId: "13772" },
+      { gameName: "绝地潜兵2", imageUrl: "images/game_1755955979.jpg", gameId: "7788" },
+      { gameName: "漫威争锋", imageUrl: "images/game_1755802295.jpg", gameId: "9274" },
+      { gameName: "无人深空", imageUrl: "images/game_1755904193.jpg", gameId: "29" }
     ]
   },
   {
     id: 11,
     name: "最佳社区支持",
     enName: "Best Community Support",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "博德之门3", imageUrl: "https://imgb.3dmgame.com/images/175551960270184ef6e8d04f1484dbb4714f67f0ddb68.jpg?imageView2/0/format/webp", gameId: "2" },
-      { gameName: "最终幻想XIV", imageUrl: "https://imgb.3dmgame.com/images/1735011939788dcc8e16a05e0461d8761dac5384b11a9.png?imageView2/0/format/webp", gameId: "11008" },
-      { gameName: "堡垒之夜", imageUrl: "https://imgs.3dmgame.com/games/ccb67706457442c19f9ad910e95bee3611763429824222.png?x-oss-process=image/interlace,1/format,webp", gameId: "13772" },
-      { gameName: "绝地潜兵2", imageUrl: "https://imgb.3dmgame.com/images/1755955979071db8ff546823f4dcc8f86b9563b2d674e.jpg?imageView2/0/format/webp", gameId: "7788" },
-      { gameName: "无人深空", imageUrl: "https://imgb.3dmgame.com/images/175590419350679d6e1da56184c089b6957064f341630.jpg?imageView2/0/format/webp", gameId: "29" }
+      { gameName: "博德之门3", imageUrl: "images/game_1755519602.jpg", gameId: "2" },
+      { gameName: "最终幻想XIV", imageUrl: "images/game_1735011939.png", gameId: "11008" },
+      { gameName: "堡垒之夜", imageUrl: "images/game_baixuni2.png", gameId: "13772" },
+      { gameName: "绝地潜兵2", imageUrl: "images/game_1755955979.jpg", gameId: "7788" },
+      { gameName: "无人深空", imageUrl: "images/game_1755904193.jpg", gameId: "29" }
     ]
   },
   {
     id: 12,
     name: "最佳独立游戏",
     enName: "Best Independent Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "绝对魔权", imageUrl: "https://imgb.3dmgame.com/images/17604894666501660056dfaef432bbcb00454fc43eb7a.jpg?imageView2/0/format/webp", gameId: "13573" },
-      { gameName: "球比伦战记", imageUrl: "https://imgb.3dmgame.com/images/17601658282465ecd2585810d48aaa0b09f22d61e1bb2.jpg?imageView2/0/format/webp", gameId: "13556" },
-      { gameName: "蓝途王子", imageUrl: "https://imgb.3dmgame.com/images/1756151981855f79532649bd34df688865e9b23736818.jpg?imageView2/0/format/webp", gameId: "11725" },
-      { gameName: "光与影：33号远征队", imageUrl: "https://imgb.3dmgame.com/images/1756210434618a045d28332c84b38948ef2e64e89371a.jpg?imageView2/0/format/webp", gameId: "11249" },
-      { gameName: "哈迪斯2", imageUrl: "https://imgb.3dmgame.com/images/17560684055742c955971271e4fe2b838f6cef0a1a756.jpg?imageView2/0/format/webp", gameId: "8490" },
-      { gameName: "空洞骑士：丝之歌", imageUrl: "https://imgb.3dmgame.com/images/175615115676211cf9fc70e784538ab7615d3b6eef501.jpg?imageView2/0/format/webp", gameId: "89" }
+      { gameName: "绝对魔权", imageUrl: "images/game_1760489466.jpg", gameId: "13573" },
+      { gameName: "球比伦战记", imageUrl: "images/game_1760165828.jpg", gameId: "13556" },
+      { gameName: "蓝途王子", imageUrl: "images/game_1756151981.jpg", gameId: "11725" },
+      { gameName: "光与影：33号远征队", imageUrl: "images/game_1756210434.jpg", gameId: "11249" },
+      { gameName: "哈迪斯2", imageUrl: "images/game_1756068405.jpg", gameId: "8490" },
+      { gameName: "空洞骑士：丝之歌", imageUrl: "images/game_1756151156.jpg", gameId: "89" }
     ]
   },
   {
     id: 13,
     name: "最佳首秀独立游戏",
     enName: "Best Debut Indie Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "蓝途王子", imageUrl: "https://imgb.3dmgame.com/images/1756151981855f79532649bd34df688865e9b23736818.jpg?imageView2/0/format/webp", gameId: "11725" },
-      { gameName: "光与影：33号远征队", imageUrl: "https://imgb.3dmgame.com/images/1756210434618a045d28332c84b38948ef2e64e89371a.jpg?imageView2/0/format/webp", gameId: "11249" },
-      { gameName: "Megabonk", imageUrl: "https://imgb.3dmgame.com/images/1763430027072568837be2b5545949a6d550b601d0740.jpg?imageView2/0/format/webp", gameId: "13773" },
-      { gameName: "despelote", imageUrl: "https://imgb.3dmgame.com/images/175627968819012cc23fd78b44774af138dbfe1c90969.jpg?imageView2/0/format/webp", gameId: "11944" },
-      { gameName: "Dispatch", imageUrl: "https://imgb.3dmgame.com/images/176109726322753c700b86e074db2bf08aedfdf57c95d.jpg?imageView2/0/format/webp", gameId: "13641" }
+      { gameName: "蓝途王子", imageUrl: "images/game_1756151981.jpg", gameId: "11725" },
+      { gameName: "光与影：33号远征队", imageUrl: "images/game_1756210434.jpg", gameId: "11249" },
+      { gameName: "Megabonk", imageUrl: "images/game_1763430027.jpg", gameId: "13773" },
+      { gameName: "despelote", imageUrl: "images/game_1756279688.jpg", gameId: "11944" },
+      { gameName: "Dispatch", imageUrl: "images/game_1761097263.jpg", gameId: "13641" }
     ]
   },
   {
     id: 14,
     name: "最佳移动游戏",
     enName: "Best Mobile Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "Destiny: Rising", imageUrl: "https://imgs.3dmgame.com/games/9419dd56888548329369a2408dc51a5f11763434093650.png?x-oss-process=image/interlace,1/format,webp", gameId: "13778" },
-      { gameName: "女神异闻录：夜幕魅影", imageUrl: "https://imgb.3dmgame.com/images/175587913253346b4d5c596cf40febba2f770f2b33d02.jpg?imageView2/0/format/webp", gameId: "11936" },
-      { gameName: "索尼克大乱斗", imageUrl: "https://imgb.3dmgame.com/images/1745983786189952858fa3aa4493d99b1da748ffd83ac.jpg?imageView2/0/format/webp", gameId: "11987" },
-      { gameName: "赛马娘", imageUrl: "https://imgb.3dmgame.com/images/17557453059401c45b501b8aa45e38b2bd39fca345789.jpg?imageView2/0/format/webp", gameId: "9685" },
-      { gameName: "鸣潮", imageUrl: "https://imgb.3dmgame.com/images/1732865905772fa7f7986caef4c0f84d67ae9fb1c1366.jpg?imageView2/0/format/webp", gameId: "8885" }
+      { gameName: "Destiny: Rising", imageUrl: "images/game_destiny_rising.png", gameId: "13778" },
+      { gameName: "女神异闻录：夜幕魅影", imageUrl: "images/game_1755879132.jpg", gameId: "11936" },
+      { gameName: "索尼克大乱斗", imageUrl: "images/game_1745983786.jpg", gameId: "11987" },
+      { gameName: "赛马娘", imageUrl: "images/game_1755745305.jpg", gameId: "9685" },
+      { gameName: "鸣潮", imageUrl: "images/game_1732865905.jpg", gameId: "8885" }
     ]
   },
   {
     id: 15,
     name: "最佳VR/AR游戏",
     enName: "Best VR/AR Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "Alien: Rogue Incursion", imageUrl: "https://imgs.3dmgame.com/games/80954a7b213b46b5a4e4e9cd1f43cf4411763435310826.png?x-oss-process=image/interlace,1/format,webp", gameId: "13780" },
-      { gameName: "Arken Age", imageUrl: "https://imgb.3dmgame.com/images/1756267994730392d7c82778441e69b0cb0949167c885.jpg?imageView2/0/format/webp", gameId: "11052" },
-      { gameName: "Ghost Town", imageUrl: "https://imgb.3dmgame.com/images/17573371304823054c754b5f94eb8a987ba0bfe6b0636.jpg?imageView2/0/format/webp", gameId: "13779" },
-      { gameName: "漫威死侍", imageUrl: "https://imgs.3dmgame.com/games/cb48073e81024dc6b4526ddbbd350f8211763434258401.png?x-oss-process=image/interlace,1/format,webp", gameId: "13777" },
-      { gameName: "午夜漫步", imageUrl: "https://imgb.3dmgame.com/images/17558117148837c63d1d978ae426ab05f8b6863026658.jpg?imageView2/0/format/webp", gameId: "11992" }
+      { gameName: "Alien: Rogue Incursion", imageUrl: "images/game_alien_rogue.png", gameId: "13780" },
+      { gameName: "Arken Age", imageUrl: "images/game_1756267994.jpg", gameId: "11052" },
+      { gameName: "Ghost Town", imageUrl: "images/game_1757337130.jpg", gameId: "13779" },
+      { gameName: "漫威死侍", imageUrl: "images/game_wulinsiwang.png", gameId: "13777" },
+      { gameName: "午夜漫步", imageUrl: "images/game_1755811714.jpg", gameId: "11992" }
     ]
   },
   {
     id: 16,
     name: "最佳动作游戏",
     enName: "Best Action Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "战地风云6", imageUrl: "https://imgb.3dmgame.com/images/1755806260613f575ae30a585486b800e2d65a45605e6.jpg?imageView2/0/format/webp", gameId: "12576" },
-      { gameName: "毁灭战士：黑暗时代", imageUrl: "https://imgb.3dmgame.com/images/1755825058635f2bbffb667fc4715bf4d3a5f78bef383.jpg?imageView2/0/format/webp", gameId: "11200" },
-      { gameName: "哈迪斯2", imageUrl: "https://imgb.3dmgame.com/images/17560684055742c955971271e4fe2b838f6cef0a1a756.jpg?imageView2/0/format/webp", gameId: "8490" },
-      { gameName: "忍者龙剑传4", imageUrl: "https://imgb.3dmgame.com/images/1755784521567fbe52f588c7b49be820c0e02e9cc1175.jpg?imageView2/0/format/webp", gameId: "11232" },
-      { gameName: "超级忍 反攻的斩击", imageUrl: "https://imgb.3dmgame.com/images/17562790515164bc4443e08194484920bb5f1fbcaac6d.jpg?imageView2/0/format/webp", gameId: "11834" }
+      { gameName: "战地风云6", imageUrl: "images/game_1755806260.jpg", gameId: "12576" },
+      { gameName: "毁灭战士：黑暗时代", imageUrl: "images/game_1755825058.jpg", gameId: "11200" },
+      { gameName: "哈迪斯2", imageUrl: "images/game_1756068405.jpg", gameId: "8490" },
+      { gameName: "忍者龙剑传4", imageUrl: "images/game_1755784521.jpg", gameId: "11232" },
+      { gameName: "超级忍 反攻的斩击", imageUrl: "images/game_1756279051.jpg", gameId: "11834" }
     ]
   },
   {
     id: 17,
     name: "最佳动作冒险游戏",
     enName: "Best Action/Adventure Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "https://imgb.3dmgame.com/images/173427421891137b41eda10494c4fa1f62b5fb424b9ce.jpg?imageView2/0/format/webp", gameId: "9157" },
-      { gameName: "羊蹄山之魂", imageUrl: "https://imgs.3dmgame.com/games/55d5ca43586f4b408801c48d9acf75e111758623031804.png?x-oss-process=image/interlace,1/format,webp", gameId: "11837" },
-      { gameName: "空洞骑士：丝之歌", imageUrl: "https://imgb.3dmgame.com/images/175615115676211cf9fc70e784538ab7615d3b6eef501.jpg?imageView2/0/format/webp", gameId: "89" },
-      { gameName: "夺宝奇兵：古老之圈", imageUrl: "https://imgb.3dmgame.com/images/175579259882606b2d2bf451f42998d5a0ddb9749f3bd.jpg?imageView2/0/format/webp", gameId: "10634" },
-      { gameName: "双影奇境", imageUrl: "https://imgb.3dmgame.com/images/175623349134526502db33c1b4a0c8d20cf5cd1247a60.jpg?imageView2/0/format/webp", gameId: "10949" }
+      { gameName: "死亡搁浅2：冥滩之上", imageUrl: "images/game_1734274218.jpg", gameId: "9157" },
+      { gameName: "羊蹄山之魂", imageUrl: "images/game_yangtishanzhihun.png", gameId: "11837" },
+      { gameName: "空洞骑士：丝之歌", imageUrl: "images/game_1756151156.jpg", gameId: "89" },
+      { gameName: "夺宝奇兵：古老之圈", imageUrl: "images/game_1755792598.jpg", gameId: "10634" },
+      { gameName: "双影奇境", imageUrl: "images/game_1756233491.jpg", gameId: "10949" }
     ]
   },
   {
     id: 18,
     name: "最佳角色扮演游戏",
     enName: "Best Role Playing Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "宣誓", imageUrl: "https://imgb.3dmgame.com/images/1755763714432806acbb7dd864ee39b66a03586df480d.jpg?imageView2/0/format/webp", gameId: "10856" },
-      { gameName: "光与影：33号远征队", imageUrl: "https://imgb.3dmgame.com/images/1756210434618a045d28332c84b38948ef2e64e89371a.jpg?imageView2/0/format/webp", gameId: "11249" },
-      { gameName: "天国：拯救2", imageUrl: "https://imgb.3dmgame.com/images/1755660215527f0cec119304a4bdea7062a752f8dd325.jpg?imageView2/0/format/webp", gameId: "10949" },
-      { gameName: "天外世界2", imageUrl: "https://imgb.3dmgame.com/images/1756125712815374d18968bcf4e5d84a2cff6e3d9e329.jpg?imageView2/0/format/webp", gameId: "10945" },
-      { gameName: "怪物猎人：荒野", imageUrl: "https://imgb.3dmgame.com/images/1756264950152f6bbac9e679d4807905ac38d7389fb03.jpg?imageView2/0/format/webp", gameId: "8569" }
+      { gameName: "宣誓", imageUrl: "images/game_1755763714.jpg", gameId: "10856" },
+      { gameName: "光与影：33号远征队", imageUrl: "images/game_1756210434.jpg", gameId: "11249" },
+      { gameName: "天国：拯救2", imageUrl: "images/game_1755660215.jpg", gameId: "10949" },
+      { gameName: "天外世界2", imageUrl: "images/game_1756125712.jpg", gameId: "10945" },
+      { gameName: "怪物猎人：荒野", imageUrl: "images/game_1756264950.jpg", gameId: "8569" }
     ]
   },
   {
     id: 19,
     name: "最佳格斗游戏",
     enName: "Best Fighting Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "2XKO", imageUrl: "https://imgs.3dmgame.com/games/4e32ad6d08054898a8002a4635ca8c6011763436197096.png?x-oss-process=image/interlace,1/format,webp", gameId: "13781" },
-      { gameName: "卡普空对战格斗合集2", imageUrl: "https://imgb.3dmgame.com/images/1756283957192e5c43296bb4c44e6a2df87a243a4204f.jpg?imageView2/0/format/webp", gameId: "12049" },
-      { gameName: "饿狼传说：群狼之城", imageUrl: "https://imgb.3dmgame.com/images/175576772483420eca836e891425fa5d2ec4286249339.jpg?imageView2/0/format/webp", gameId: "10851" },
-      { gameName: "真人快打：遗产合集", imageUrl: "https://imgb.3dmgame.com/images/17490930126431cab049018c94c02a458c4718b84c0cf.jpg?imageView2/0/format/webp", gameId: "12243" },
-      { gameName: "VR战士5：终极对决", imageUrl: "https://imgb.3dmgame.com/images/17558327578242517ee8aec67470c9c35585b09e764f8.jpg?imageView2/0/format/webp", gameId: "11012" }
+      { gameName: "2XKO", imageUrl: "images/game_2xko.png", gameId: "13781" },
+      { gameName: "卡普空对战格斗合集2", imageUrl: "images/game_1756283957.jpg", gameId: "12049" },
+      { gameName: "饿狼传说：群狼之城", imageUrl: "images/game_1755767724.jpg", gameId: "10851" },
+      { gameName: "真人快打：遗产合集", imageUrl: "images/game_1749093012.jpg", gameId: "12243" },
+      { gameName: "VR战士5：终极对决", imageUrl: "images/game_1755832757.jpg", gameId: "11012" }
     ]
   },
   {
     id: 20,
     name: "最佳家庭游戏",
     enName: "Best Family Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "咚奇刚：蕉力全开", imageUrl: "https://imgb.3dmgame.com/images/17436651016157bccde209970456fb6251b0d4e5f158d.jpg?imageView2/0/format/webp", gameId: "11710" },
-      { gameName: "LEGO® Party!", imageUrl: "https://imgb.3dmgame.com/images/175622829605204658622f47b420cb089b6095859654f.jpg?imageView2/0/format/webp", gameId: "12682" },
-      { gameName: "马里奥赛车：世界", imageUrl: "https://imgb.3dmgame.com/images/1743647274097df81e189c7bf4142b113784bed5b501b.jpg?imageView2/0/format/webp", gameId: "11704" },
-      { gameName: "索尼克赛车 交叉世界", imageUrl: "https://imgb.3dmgame.com/images/1755767064733b5e9ea318e5947209956bc762d9f251c.jpg?imageView2/0/format/webp", gameId: "11376" },
-      { gameName: "双影奇境", imageUrl: "https://imgb.3dmgame.com/images/175623349134526502db33c1b4a0c8d20cf5cd1247a60.jpg?imageView2/0/format/webp", gameId: "10949" }
+      { gameName: "咚奇刚：蕉力全开", imageUrl: "images/game_1743665101.jpg", gameId: "11710" },
+      { gameName: "LEGO® Party!", imageUrl: "images/game_1756228296.jpg", gameId: "12682" },
+      { gameName: "马里奥赛车：世界", imageUrl: "images/game_1743647274.jpg", gameId: "11704" },
+      { gameName: "索尼克赛车 交叉世界", imageUrl: "images/game_1755767064.jpg", gameId: "11376" },
+      { gameName: "双影奇境", imageUrl: "images/game_1756233491.jpg", gameId: "10949" }
     ]
   },
   {
     id: 21,
     name: "最佳模拟/策略游戏",
     enName: "Best Sim/Strategy Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "多重人生", imageUrl: "https://imgb.3dmgame.com/images/17561573452955db85863b48a44fa9075cef7df6d5071.jpg?imageView2/0/format/webp", gameId: "11212" },
-      { gameName: "最终幻想战略版", imageUrl: "https://imgb.3dmgame.com/images/1749089609273dfeb548c7912417582648153f19f547a.jpg?imageView2/0/format/webp", gameId: "12240" },
-      { gameName: "侏罗纪世界：进化3", imageUrl: "https://imgb.3dmgame.com/images/17558199387213d0f93d11120412c9310e0172401059a.jpg?imageView2/0/format/webp", gameId: "12465" },
-      { gameName: "席德·梅尔的文明Ⅶ", imageUrl: "https://imgb.3dmgame.com/images/1756098108344dfe2826eb2224d6f870082db852da305.jpg?imageView2/0/format/webp", gameId: "10479" },
-      { gameName: "风暴崛起", imageUrl: "https://imgb.3dmgame.com/images/175613671296647940c7ffa05483ea8a3e858f5037f2a.jpg?imageView2/0/format/webp", gameId: "10902" },
-      { gameName: "双点博物馆", imageUrl: "https://imgb.3dmgame.com/images/1756256885795f2b4746471b14d809abd4b8d4098de9f.jpg?imageView2/0/format/webp", gameId: "10624" }
+      { gameName: "多重人生", imageUrl: "images/game_1756157345.jpg", gameId: "11212" },
+      { gameName: "最终幻想战略版", imageUrl: "images/game_1749089609.jpg", gameId: "12240" },
+      { gameName: "侏罗纪世界：进化3", imageUrl: "images/game_1755819938.jpg", gameId: "12465" },
+      { gameName: "席德·梅尔的文明Ⅶ", imageUrl: "images/game_1756098108.jpg", gameId: "10479" },
+      { gameName: "风暴崛起", imageUrl: "images/game_1756136712.jpg", gameId: "10902" },
+      { gameName: "双点博物馆", imageUrl: "images/game_1756256885.jpg", gameId: "10624" }
     ]
   },
   {
     id: 22,
     name: "最佳体育竞速游戏",
     enName: "Best Sports/Racing Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "EA SPORTS FC™ 26", imageUrl: "https://imgb.3dmgame.com/images/17558594431501e691d6e20dc4e13bda1c05dbdfbe2b5.jpg?imageView2/0/format/webp", gameId: "12516" },
-      { gameName: "F1® 25", imageUrl: "https://imgb.3dmgame.com/images/175582848795691cb2abb3ab84fc3991d5a0e4c12bfda.jpg?imageView2/0/format/webp", gameId: "12005" },
-      { gameName: "马里奥赛车：世界", imageUrl: "https://imgb.3dmgame.com/images/1743647274097df81e189c7bf4142b113784bed5b501b.jpg?imageView2/0/format/webp", gameId: "11704" },
-      { gameName: "开球！REMATCH", imageUrl: "https://imgb.3dmgame.com/images/175625022509653429bafff41467ca6695fa879482fd8.jpg?imageView2/0/format/webp", gameId: "10950" },
-      { gameName: "索尼克赛车 交叉世界", imageUrl: "https://imgb.3dmgame.com/images/1755767064733b5e9ea318e5947209956bc762d9f251c.jpg?imageView2/0/format/webp", gameId: "11376" }
+      { gameName: "EA SPORTS FC™ 26", imageUrl: "images/game_1755859443.jpg", gameId: "12516" },
+      { gameName: "F1® 25", imageUrl: "images/game_1755828487.jpg", gameId: "12005" },
+      { gameName: "马里奥赛车：世界", imageUrl: "images/game_1743647274.jpg", gameId: "11704" },
+      { gameName: "开球！REMATCH", imageUrl: "images/game_1756250225.jpg", gameId: "10950" },
+      { gameName: "索尼克赛车 交叉世界", imageUrl: "images/game_1755767064.jpg", gameId: "11376" }
     ]
   },
   {
     id: 23,
     name: "最佳多人游戏",
     enName: "Best Multiplayer Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "穹顶突击队", imageUrl: "https://imgs.3dmgame.com/games/870d3d4c873e4b53a9d82e29293fe68f11761787964068.jpg?x-oss-process=image/interlace,1/format,webp", gameId: "9020" },
-      { gameName: "战地风云6", imageUrl: "https://imgb.3dmgame.com/images/1755806260613f575ae30a585486b800e2d65a45605e6.jpg?imageView2/0/format/webp", gameId: "12576" },
-      { gameName: "艾尔登法环：黑夜君临", imageUrl: "https://imgb.3dmgame.com/images/17557835037684020fd887a8b460da32ce29f01234273.jpg?imageView2/0/format/webp", gameId: "10944" },
-      { gameName: "巅峰", imageUrl: "https://imgb.3dmgame.com/images/175587157088154eb94c109de4e618a5e0d111a24c98e.jpg?imageView2/0/format/webp", gameId: "12450" },
-      { gameName: "双影奇境", imageUrl: "https://imgb.3dmgame.com/images/175623349134526502db33c1b4a0c8d20cf5cd1247a60.jpg?imageView2/0/format/webp", gameId: "10949" }
+      { gameName: "穹顶突击队", imageUrl: "images/game_aodong.png", gameId: "9020" },
+      { gameName: "战地风云6", imageUrl: "images/game_1755806260.jpg", gameId: "12576" },
+      { gameName: "艾尔登法环：黑夜君临", imageUrl: "images/game_1755783503.jpg", gameId: "10944" },
+      { gameName: "巅峰", imageUrl: "images/game_1755871570.jpg", gameId: "12450" },
+      { gameName: "双影奇境", imageUrl: "images/game_1756233491.jpg", gameId: "10949" }
     ]
   },
   {
     id: 24,
     name: "最佳改编作品",
     enName: "Best Adaptation",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "我的世界", imageUrl: "https://imgb.3dmgame.com/images/17507490935379e520a914f794b55a7cbecd7c509df17.jpg?imageView2/0/format/webp", gameId: "9071" },
-      { gameName: "鬼泣", imageUrl: "https://imgb.3dmgame.com/images/17559742599417a05789a360a4ce289ca36e6f1f5d11f.jpg?imageView2/0/format/webp", gameId: "11823" },
-      { gameName: "最后生还者2：重制版", imageUrl: "https://imgb.3dmgame.com/images/1755771821725697d5b9d5d1a489db5ab97155c1ce78b.jpg?imageView2/0/format/webp", gameId: "8933" },
-      { gameName: "细胞分裂", imageUrl: "https://imgs.3dmgame.com/games/edf02b7a10634b35b0632ed581dc2c9811763433534773.png?x-oss-process=image/interlace,1/format,webp", gameId: "13776" },
-      { gameName: "直到黎明", imageUrl: "https://imgb.3dmgame.com/images/1755727352505644fbb6c0de04fcbbea94dd3f9ab445b.jpg?imageView2/0/format/webp", gameId: "8587" }
+      { gameName: "我的世界", imageUrl: "images/game_1750749093.jpg", gameId: "9071" },
+      { gameName: "鬼泣", imageUrl: "images/game_1755974259.jpg", gameId: "11823" },
+      { gameName: "最后生还者2：重制版", imageUrl: "images/game_1755771821.jpg", gameId: "8933" },
+      { gameName: "细胞分裂", imageUrl: "images/game_xibao.png", gameId: "13776" },
+      { gameName: "直到黎明", imageUrl: "images/game_1755727352.jpg", gameId: "8587" }
     ]
   },
   {
     id: 25,
     name: "最受期待游戏",
     enName: "Most Anticipated Game",
-    pic: "https://imgs.3dmgame.com/activity/awards/default.png?x-oss-process=image/interlace,1/format,webp",
+    pic: "images/award_default.png",
     selectedGameId: null,
     selectedGameName: null,
     voteUserNum: 9737,
     gameItems: [
-      { gameName: "007 初露锋芒", imageUrl: "https://imgb.3dmgame.com/images/1749088404913c15b6ebc4e14421a873c210e2eaa8748.jpg?imageView2/0/format/webp", gameId: "12238" },
-      { gameName: "侠盗猎车手6", imageUrl: "https://imgb.3dmgame.com/images/17345133040854283be6c8c5047a0b3705eadf3d69ce1.png?imageView2/0/format/webp", gameId: "10970" },
-      { gameName: "Marvel's Wolverine", imageUrl: "https://imgs.3dmgame.com/games/04ebc6f0c91a49f4b29edd69d77e398611763433165995.png?x-oss-process=image/interlace,1/format,webp", gameId: "13775" },
-      { gameName: "生化危机：安魂曲", imageUrl: "https://imgb.3dmgame.com/images/1750987847799405b3bb54fa04e59bd111e3b410457e4.png?imageView2/0/format/webp", gameId: "12215" },
-      { gameName: "巫师4", imageUrl: "https://imgb.3dmgame.com/images/1734052901271b328c2645097491caa61927b7a2f6399.webp", gameId: "10942" }
+      { gameName: "007 初露锋芒", imageUrl: "images/game_1749088404.jpg", gameId: "12238" },
+      { gameName: "侠盗猎车手6", imageUrl: "images/game_1734513304.png", gameId: "10970" },
+      { gameName: "Marvel's Wolverine", imageUrl: "images/game_04ebc6f0.png", gameId: "13775" },
+      { gameName: "生化危机：安魂曲", imageUrl: "images/game_1750987847.png", gameId: "12215" },
+      { gameName: "巫师4", imageUrl: "images/game_1734052901.webp", gameId: "10942" }
     ]
   }
 ];
@@ -401,31 +401,31 @@ const lotteryData = {
   contentText: "TGA投票抽大奖",
   joinNum: 91666,
   prizes: [
-    { id: 309, title: "华硕RTX 5070显卡", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/5070_mini3x.png", remainStock: 0, showStock: 1 },
-    { id: 310, title: "微星主板B860M GAMING PLUS", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/zhuban.png", remainStock: 0, showStock: 2 },
-    { id: 311, title: "华硕ROG吹雪主板", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/rog_zhuban.png", remainStock: 0, showStock: 5 },
-    { id: 312, title: "ROG夜魔98HE键盘", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/rog_jianpan.png", remainStock: 0, showStock: 5 },
-    { id: 313, title: "星弛87磁轴键盘", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/qicaihong_jianpan.png", remainStock: 0, showStock: 3 },
-    { id: 316, title: "ROG龙鳞2ACE鼠标", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/shubiao.png", remainStock: 0, showStock: 9 },
-    { id: 317, title: "ROG破风耳机", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/erji.png", remainStock: 0, showStock: 9 },
-    { id: 318, title: "感谢参与", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/xiexie3x.png", remainStock: null, showStock: null }
+    { id: 309, title: "华硕RTX 5070显卡", picUrl: "images/prize_5070.png", remainStock: 0, showStock: 1 },
+    { id: 310, title: "微星主板B860M GAMING PLUS", picUrl: "images/prize_zhuban.png", remainStock: 0, showStock: 2 },
+    { id: 311, title: "华硕ROG吹雪主板", picUrl: "images/prize_rog_zhuban.png", remainStock: 0, showStock: 5 },
+    { id: 312, title: "ROG夜魔98HE键盘", picUrl: "images/prize_rog_jianpan.png", remainStock: 0, showStock: 5 },
+    { id: 313, title: "星弛87磁轴键盘", picUrl: "images/prize_qicaihong_jianpan.png", remainStock: 0, showStock: 3 },
+    { id: 316, title: "ROG龙鳞2ACE鼠标", picUrl: "images/prize_shubiao.png", remainStock: 0, showStock: 9 },
+    { id: 317, title: "ROG破风耳机", picUrl: "images/prize_erji.png", remainStock: 0, showStock: 9 },
+    { id: 318, title: "感谢参与", picUrl: "images/prize_xiexie.png", remainStock: null, showStock: null }
   ],
   luckyDogInfos: [
-    { avatar: "https://my.3dmgame.com/uploads/images/avatar/default.jpg", userName: "干净的毛豆", prizeTitle: "ROG龙鳞2ACE鼠标", prizeUrl: "https://imgs.3dmgame.com/activity/20251118tga/shubiao.png" },
-    { avatar: "https://my.3dmgame.com/uploads/images/avatar/default.jpg", userName: "栗子叶", prizeTitle: "ROG龙鳞2ACE鼠标", prizeUrl: "https://imgs.3dmgame.com/activity/20251118tga/shubiao.png" },
-    { avatar: "https://my.3dmgame.com/uploads/images/avatar/default.jpg", userName: "傲娇的显示器", prizeTitle: "ROG龙鳞2ACE鼠标", prizeUrl: "https://imgs.3dmgame.com/activity/20251118tga/shubiao.png" },
-    { avatar: "https://my.3dmgame.com/uploads/images/avatar/default.jpg", userName: "开心的牛爷爷", prizeTitle: "七彩虹键盘", prizeUrl: "https://imgs.3dmgame.com/activity/20251118tga/qicaihong_jianpan.png" },
-    { avatar: "https://my.3dmgame.com/uploads/images/avatar/default.jpg", userName: "忧郁的胖虎", prizeTitle: "ROG破风耳机", prizeUrl: "https://imgs.3dmgame.com/activity/20251118tga/erji.png" },
-    { avatar: "https://my.3dmgame.com/uploads/images/avatar/default.jpg", userName: "过时的火1", prizeTitle: "七彩虹键盘", prizeUrl: "https://imgs.3dmgame.com/activity/20251118tga/qicaihong_jianpan.png" },
-    { avatar: "https://my.3dmgame.com/uploads/images/avatar/default.jpg", userName: "滑稽兽o", prizeTitle: "ROG破风耳机", prizeUrl: "https://imgs.3dmgame.com/activity/20251118tga/erji.png" },
-    { avatar: "https://my.3dmgame.com/uploads/images/avatar/default.jpg", userName: "会撒娇的高山10", prizeTitle: "ROG龙鳞2ACE鼠标", prizeUrl: "https://imgs.3dmgame.com/activity/20251118tga/shubiao.png" },
-    { avatar: "https://my.3dmgame.com/uploads/images/cavatar/20250806/1754415076_904267_s1.png", userName: "针不戳针不戳捏", prizeTitle: "七彩虹键盘", prizeUrl: "https://imgs.3dmgame.com/activity/20251118tga/qicaihong_jianpan.png" }
+    { avatar: "images/avatar_default.jpg", userName: "干净的毛豆", prizeTitle: "ROG龙鳞2ACE鼠标", prizeUrl: "images/prize_shubiao.png" },
+    { avatar: "images/avatar_default.jpg", userName: "栗子叶", prizeTitle: "ROG龙鳞2ACE鼠标", prizeUrl: "images/prize_shubiao.png" },
+    { avatar: "images/avatar_default.jpg", userName: "傲娇的显示器", prizeTitle: "ROG龙鳞2ACE鼠标", prizeUrl: "images/prize_shubiao.png" },
+    { avatar: "images/avatar_default.jpg", userName: "开心的牛爷爷", prizeTitle: "七彩虹键盘", prizeUrl: "images/prize_qicaihong_jianpan.png" },
+    { avatar: "images/avatar_default.jpg", userName: "忧郁的胖虎", prizeTitle: "ROG破风耳机", prizeUrl: "images/prize_erji.png" },
+    { avatar: "images/avatar_default.jpg", userName: "过时的火1", prizeTitle: "七彩虹键盘", prizeUrl: "images/prize_qicaihong_jianpan.png" },
+    { avatar: "images/avatar_default.jpg", userName: "滑稽兽o", prizeTitle: "ROG破风耳机", prizeUrl: "images/prize_erji.png" },
+    { avatar: "images/avatar_default.jpg", userName: "会撒娇的高山10", prizeTitle: "ROG龙鳞2ACE鼠标", prizeUrl: "images/prize_shubiao.png" },
+    { avatar: "images/avatar_default.jpg", userName: "针不戳针不戳捏", prizeTitle: "七彩虹键盘", prizeUrl: "images/prize_qicaihong_jianpan.png" }
   ],
   taskInfos: [
-    { id: 107, title: "每日投票1次", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/icon_vote.png", awardNum: 1, status: 0, taskType: 40 },
-    { id: 108, title: "每日分享此活动给好友", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/icon_share.png", awardNum: 1, status: 0, taskType: 3 },
-    { id: 109, title: "说说你对TGA提名的看法", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/icon_publish.png", awardNum: 5, status: 0, taskType: 6 },
-    { id: 113, title: "购买商城任意游戏", picUrl: "https://imgs.3dmgame.com/activity/20251118tga/icon_shopping.png", awardNum: 10, status: 0, taskType: 35 }
+    { id: 107, title: "每日投票1次", picUrl: "images/icon_vote.png", awardNum: 1, status: 0, taskType: 40 },
+    { id: 108, title: "每日分享此活动给好友", picUrl: "images/icon_share.png", awardNum: 1, status: 0, taskType: 3 },
+    { id: 109, title: "说说你对TGA提名的看法", picUrl: "images/icon_publish.png", awardNum: 5, status: 0, taskType: 6 },
+    { id: 113, title: "购买商城任意游戏", picUrl: "images/icon_shopping.png", awardNum: 10, status: 0, taskType: 35 }
   ],
   chanceNum: 0
 };
@@ -460,7 +460,7 @@ function initVoteList() {
     <div class="tga-card" data-id="${card.id}">
       <div class="card-left">
         <img src="${card.pic}" alt="${card.name}" class="trophy" 
-             onerror="this.src='https://imgs.3dmgame.com/activity/awards/default.png'">
+             onerror="this.src='images/award_default.png'">
       </div>
       <div class="card-right">
         <div class="sub-en">${card.enName}</div>
@@ -491,7 +491,7 @@ function initTaskList() {
   container.innerHTML = lotteryData.taskInfos.map(task => `
     <div class="col">
       <div class="prize-img-area">
-        <img src="${task.picUrl}" onerror="this.src='https://imgs.3dmgame.com/activity/20251118tga/icon_vote.png'" />
+        <img src="${task.picUrl}" onerror="this.src='images/icon_vote.png'" />
         ${task.title}<span>+${task.awardNum}</span>
       </div>
       <div class="go-btn ${task.status === 2 ? 'complete-btn' : (task.status === 1 ? 'unreceived-btn' : '')}" data-taskid="${task.id}">
@@ -755,7 +755,7 @@ function openVote(card) {
   grid.innerHTML = card.gameItems.map(g => `
     <div class="vote-pop-item ${selectedGameIdLocal == g.gameId ? 'selected' : ''}" data-gameid="${g.gameId}">
       <img src="${g.imageUrl}" class="vote-pop-img ${selectedGameIdLocal && selectedGameIdLocal != g.gameId ? 'dimmed' : ''}" 
-           onerror="this.src='https://imgs.3dmgame.com/configs/default_game.jpg'">
+           onerror="this.src='images/award_default.png'">
       <div class="vote-pop-name">${g.gameName}</div>
       ${card.selectedGameId == g.gameId ? '<div class="vote-pop-badge">已投</div>' : ''}
     </div>
