@@ -1,6 +1,36 @@
 ﻿// TGA2025游戏大选 - 静态页面数据
 // 页面数据已硬编码，无需接口请求
 
+// ==================== rem 适配 ====================
+(function() {
+  var docEl = document.documentElement;
+
+  function isPc() {
+    var userAgent = navigator.userAgent;
+    if( userAgent.match(/Android/i) || userAgent.match(/webOS/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPad/i) || userAgent.match(/iPod/i) || userAgent.match(/BlackBerry/i) || userAgent.match(/Windows Phone/i) ){
+      return false;
+    } else {
+      return true;
+    }
+  }
+
+  function setRemUnit() {
+    if (isPc()) {
+      docEl.style.fontSize = "37.5px";
+    } else {
+      var rem = docEl.clientWidth / 10;
+      docEl.style.fontSize = rem + 'px';
+    }
+  }
+  setRemUnit();
+  window.addEventListener('resize', setRemUnit);
+  window.addEventListener('pageshow', function (e) {
+    if (e.persisted) {
+      setRemUnit();
+    }
+  });
+})();
+
 // ==================== 静态数据 ====================
 
 // TGA奖项列表数据
